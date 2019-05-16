@@ -150,7 +150,7 @@
                 dashboard.draw(data);
 
                 //MangaCheckbox filter manipulator
-                var MangaCheck = document.getElementById("MangaCheckbox");		
+                var MangaCheck = document.getElementById("MangaCheckbox");
                 var MangaFunction= function(){
                     var checkbox = document.getElementById("MangaCheckbox");
                     if(checkbox.checked){
@@ -170,7 +170,7 @@
                     }
                 }
                 //ImportantCheckbox filter manipulator
-                var ImportantCheck = document.getElementById("ImportantCheckbox");		
+                var ImportantCheck = document.getElementById("ImportantCheckbox");
                 var ImportantFunction= function(){
                     var checkbox = document.getElementById("ImportantCheckbox");
                     if(checkbox.checked){
@@ -190,7 +190,7 @@
                     }
                 }
                 //RecommendedCheckbox filter manipulator
-                var RecommendedCheck = document.getElementById("RecommendedCheckbox");		
+                var RecommendedCheck = document.getElementById("RecommendedCheckbox");
                 var RecommendedFunction= function(){
                     var checkbox = document.getElementById("RecommendedCheckbox");
                     if(checkbox.checked){
@@ -210,7 +210,7 @@
                     }
                 }
                 //OneHourSpecialCheckbox filter manipulator
-                var OneHourSpecialCheck = document.getElementById("OneHourSpecialCheckbox");		
+                var OneHourSpecialCheck = document.getElementById("OneHourSpecialCheckbox");
                 var OneHourSpecialFunction= function(){
                     var checkbox = document.getElementById("OneHourSpecialCheckbox");
                     if(checkbox.checked){
@@ -230,7 +230,7 @@
                     }
                 }
                 //TwoHoursSpecialCheckbox filter manipulator
-                var TwoHoursSpecialCheck = document.getElementById("TwoHoursSpecialCheckbox");		
+                var TwoHoursSpecialCheck = document.getElementById("TwoHoursSpecialCheckbox");
                 var TwoHoursSpecialFunction= function(){
                     var checkbox = document.getElementById("TwoHoursSpecialCheckbox");
                     if(checkbox.checked){
@@ -251,7 +251,7 @@
                 }
 
                 //MovieCheckbox filter manipulator
-                var MovieCheck = document.getElementById("MovieCheckbox");		
+                var MovieCheck = document.getElementById("MovieCheckbox");
                 var MovieFunction= function(){
                     var checkbox = document.getElementById("MovieCheckbox");
                     if(checkbox.checked){
@@ -275,10 +275,10 @@
                 EpisodesTotal = data.getFilteredRows([{column:7,value:null}]).length;
                 document.getElementById("EpisodesTotal").innerHTML = EpisodesTotal;
 
-                MangaTotal = data.getFilteredRows([{column:2,value:"✔"}]).length; 
+                MangaTotal = data.getFilteredRows([{column:2,value:"✔"}]).length;
                 document.getElementById("MangaTotal").innerHTML = MangaTotal;
 
-                ImportantTotal = data.getFilteredRows([{column:3,value:"✔"}]).length; 
+                ImportantTotal = data.getFilteredRows([{column:3,value:"✔"}]).length;
                 document.getElementById("ImportantTotal").innerHTML = ImportantTotal;
 
                 RecommendedTotal = data.getFilteredRows([{column:4,value:"✔"}]).length;
@@ -290,7 +290,7 @@
                 Sp2Total = data.getFilteredRows([{column:6,value:"✔"}]).length;
                 document.getElementById("Sp2Total").innerHTML = Sp2Total;
 
-                MoviesTotal = data.getFilteredRows([{column:7,value:"✔"}]).length; 
+                MoviesTotal = data.getFilteredRows([{column:7,value:"✔"}]).length;
                 document.getElementById("MoviesTotal").innerHTML = MoviesTotal;
 
                 //console.log(data);
@@ -383,7 +383,7 @@
             .tooltip:hover .tooltiptext {
                 visibility: visible;
                 opacity: 0.75;
-            }    
+            }
 
             .center table, th, td{
                 border: 1px solid #4f4f4f;
@@ -415,7 +415,7 @@
             }
             body{
                 font-family: 'Changa', sans-serif;
-                font-size: 1.5em; 
+                font-size: 1.5em;
             }
             tr:nth-child(even) {background-color: #363636;}
             tr:nth-child(odd) {background-color: #242424;}
@@ -556,7 +556,7 @@
         </style>
     </head>
 
-    <body dir="rtl"; style="background-color:#242424";> 
+    <body dir="rtl"; style="background-color:#242424";>
         <div class="topnav" id="myTopnav">
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
